@@ -21,6 +21,7 @@ string semester = "Fall 2021";
 
 void showMenu();
 void menu18Smiley(int);
+void menu16Underwood();
 
 // ***************************************************************
 // END OF FUNCTION PROTOTYPE AREA
@@ -68,7 +69,7 @@ int main()
             case 7:                 // Coons - call to function goes here
                 break;
             case 8:                 // Cutshall - call to function goes here
-				break;
+                break;
             case 9:                 // Gilcrease - call to function goes here
                 break;
             case 10:                 // Kaiser - call to function goes here
@@ -84,6 +85,7 @@ int main()
             case 15:                 // Syed - call to function goes here
                 break;
             case 16:                 // Underwood - call to function goes here
+                menu16Underwood();
                 break;
             case 17:                 // Whispell - call to function goes here
                 break;
@@ -194,4 +196,52 @@ void menu18Smiley(int numberOfTimes)
 
     cout << endl;
     cout << endl;
+}
+
+// *****************************************************************************************
+// MENU ID:          16
+// FUNCTION:         menu16Underwood
+// DESCRIPTION:      prints ascii Stimpy
+// OUTPUT EXAMPLE:  ascii art
+// *****************************************************************************************
+
+void menu16Underwood()
+{
+    cout << "                        _    |     _" << endl;
+    cout << "                         ~,   \  ,~" << endl;
+    cout << "                          \  |  |   ,^," << endl;
+    cout << "                 __ ,--,__|-----.__// |" << endl;
+    cout << "                /  '   '          /|#_| " << endl;
+    cout << "               ,-~-/~~\               \ " << endl;
+    cout << "              /__ __   \               \ " << endl;
+    cout << "             ;~___ ~;  | ___           | " << endl;
+    cout << "     ____   / / /  | | | ,-'   '-,     \ " << endl;
+    cout << " .--'    ~-{  \/  /  | |/         \     \ " << endl;
+    cout << "/  _  ,-,   \_/~-~  /  |           |    | " << endl;
+    cout << "| | \ \  \   \~~--~~   / }         \    | " << endl;
+    cout << "\  \_| ~-/    |-____--~             |   |" << endl;
+    cout << " ~\_          /              __     |   |" << endl;
+    cout << "    ~-+---.__/                |     |   |" << endl;
+    cout << "   /                        _/      |   |" << endl;
+    cout << "  |                  __ ___/        |   |" << endl;
+    cout << "  \____/\_______----\  V  \        /    |" << endl;
+    cout << "        |            \  \  \      /    /|" << endl;
+    cout << "        |            |  !  |    ,-,_  / |" << endl;
+    cout << "        /             \___/   _|.   ~-,  )" << endl;
+    cout << "       |                     /       _| |" << endl;
+    cout << "       |   ,-.              |        |   \ " << endl;
+    cout << "       |    o               \_/ / /  |   | " << endl;
+    cout << "       |                      ~Y_/ _/    |" << endl;
+    cout << "       \                       |~~      /" << endl;
+    cout << "         ~-_                   /     _-~" << endl;
+    cout << "            ~~----,________,-~~ _--~~" << endl;
+    cout << "                     /    /   /    / " << endl;
+    cout << "                    |    |   |    |" << endl;
+    cout << "                    \     \   \    \ " << endl;
+        cout << "         _,-----_\  _,----_\    \ " << endl;
+        cout << "        /          /             \ " << endl;
+        cout << "    ###|          |               |#####" << endl;
+    cout << "       ####\          \              /#######" << endl;
+    cout << "         ####################################    " << endl;
+    cout << "            ######    #########     ####" << endl;
 }
